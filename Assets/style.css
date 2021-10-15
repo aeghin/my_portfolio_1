@@ -1,0 +1,160 @@
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDF5D8;
+}
+Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 1%;
+    margin: 0px;
+    background-color: #113C55;
+    color: #FDF5D8; 
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    margin: 30px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #FDF5D8;
+    background-color: transparent;
+    border: 1px solid #FDF5D8;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+
+.contact-btn:hover {
+    color: #113C55;
+    background-color: #FDF5D8;
+}
+
+
+.resume-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #FDF5D8;
+    background-color: transparent;
+    border: 1px solid #FDF5D8;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+
+.resume-btn:hover {
+    color: #113C55;
+    background-color: #FDF5D8;
+}
+
+
+.project-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #FDF5D8;
+    background-color: transparent;
+    border: 1px solid #FDF5D8;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+
+.project-btn:hover {
+    color: #113C55;
+    background-color: #FDF5D8;
+}
+
+.about-me-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    color: #FDF5D8;
+    background-color: transparent;
+    border: 1px solid #FDF5D8;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+
+.about-me-btn:hover {
+color: #113C55; 
+background-color: #FDF5D8;
+}
+
+h2, p {
+    color: #113C55;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 2rem;
+    margin-right: 30rem;
+    text-align: justify;
+}
+
+a {
+    font-size: 25px;
+}
+
+
+h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+
+}
+img {
+    margin: 31px;
+    height: 300px;
+    width: 400px;
+    border-radius: 40px;
+    border-style: solid; 
+    border-color: #113C55;
+    box-shadow: 10px 10px 10px #999;
+    background-color: transparent;
+    margin-left: 41px;
+}
+
+h2 {
+    font-size: 3rem;    
+}
+
+footer {
+    text-align: center;
+}
+
+section h2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
